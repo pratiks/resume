@@ -4,9 +4,11 @@ let c9config = require("c9config");
 
 process.env.PORT = process.env.PORT || 8080;
 app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '/resume'))
+
 
 app.get('/', (req, res) => {
-  res.send("test")
+  res.redirect(__dirname + "/resume/index.html")
 })
 
 
