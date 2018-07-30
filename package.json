@@ -1,0 +1,30 @@
+{
+  "name": "pratik-shah",
+  "version": "0.2.0",
+  "description": "Pratik Shah Personal Site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "c9config": "^1.0.0"
+  },
+  "engines": {
+    "node": "8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Pratik Shah",
+  "contributors": [
+    ""
+  ],
+  "license": "MIT"
+}
