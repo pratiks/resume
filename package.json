@@ -26,5 +26,6 @@
   "contributors": [
     ""
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {}
 }
